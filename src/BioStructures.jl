@@ -17,10 +17,12 @@ import BioCore
 import BioCore.distance
 import BioSymbols
 import BioSequences.AminoAcidSequence
+import MMTF: parsemmtf, writemmtf
 
 include("model.jl")
 include("pdb.jl")
 include("mmcif.jl")
+include("mmtf.jl")
 include("spatial.jl")
 
 end # BioStructures
